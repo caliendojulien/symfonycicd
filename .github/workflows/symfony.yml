@@ -28,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-php-
       - name: Installation des dépendances
-        run: composer update
+        run: composer install
       - name: Création de la base de donnée
         run: |
           mkdir -p data
