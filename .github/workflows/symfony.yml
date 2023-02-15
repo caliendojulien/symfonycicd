@@ -31,7 +31,7 @@ jobs:
             ${{ runner.os }}-php-
       - name: Installation des dépendances
         run: composer install
-      - name: Création de la base de donnée
+      - name: Création de la base de données
         run: |
           mkdir -p data
           touch data/database.sqlite
@@ -41,3 +41,7 @@ jobs:
         run: vendor/bin/phpunit
       - name: phpunit-coverage-badge
         uses: timkrase/phpunit-coverage-badge@v1.2.1
+        with:
+          coverage_badge_path: 'badge.svg'
+          push_badge: true
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
