@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676531203">
-  <project timestamp="1676531203">
+<coverage generated="1676531777">
+  <project timestamp="1676531777">
     <file name="/home/runner/work/symfonycicd/symfonycicd/src/Controller/HomeController.php">
       <class name="App\Controller\HomeController" namespace="global">
         <metrics complexity="4" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
@@ -20,6 +20,14 @@
       <line num="49" type="stmt" count="0"/>
       <line num="50" type="stmt" count="0"/>
       <metrics loc="53" ncloc="53" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/symfonycicd/symfonycicd/src/DataFixtures/AppFixtures.php">
+      <class name="App\DataFixtures\AppFixtures" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="10" type="method" name="load" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <metrics loc="18" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
     <file name="/home/runner/work/symfonycicd/symfonycicd/src/Entity/Adresse.php">
       <class name="App\Entity\Adresse" namespace="global">
@@ -195,6 +203,6 @@
       <line num="38" type="stmt" count="0"/>
       <metrics loc="67" ncloc="36" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
     </file>
-    <metrics files="10" loc="591" ncloc="486" classes="9" methods="41" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="93" coveredstatements="0" elements="134" coveredelements="0"/>
+    <metrics files="11" loc="609" ncloc="502" classes="10" methods="42" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="0" elements="136" coveredelements="0"/>
   </project>
 </coverage>
