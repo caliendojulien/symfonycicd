@@ -38,6 +38,10 @@ jobs:
         run: |
           mkdir -p data
           touch data/database.sqlite
+      - name: Ajout des fixtures aux dépendances
+        run: composer require --dev orm-fixtures
+      - name: Chargement des fixtures
+        run: php bin/console d:f:l --no-interaction --env=test
       - name: Execution des tests
         env:
           DATABASE_URL: sqlite:///%kernel.project_dir%/data/database.sqlite
