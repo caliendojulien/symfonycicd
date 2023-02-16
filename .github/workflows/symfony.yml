@@ -40,6 +40,8 @@ jobs:
           touch data/database.sqlite
       - name: Ajout des fixtures aux dépendances
         run: composer require --dev orm-fixtures
+      - name: Mise a jour du schéma de la base de données
+        run: php bin/console d:s:u --force
       - name: Chargement des fixtures
         run: php bin/console d:f:l --no-interaction --env=test
       - name: Execution des tests
