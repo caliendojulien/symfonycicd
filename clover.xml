@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676531876">
-  <project timestamp="1676531876">
+<coverage generated="1676532162">
+  <project timestamp="1676532162">
     <file name="/home/runner/work/symfonycicd/symfonycicd/src/Controller/HomeController.php">
       <class name="App\Controller\HomeController" namespace="global">
         <metrics complexity="4" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
@@ -91,22 +91,22 @@
     </file>
     <file name="/home/runner/work/symfonycicd/symfonycicd/src/Entity/Voiture.php">
       <class name="App\Entity\Voiture" namespace="global">
-        <metrics complexity="11" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="25" coveredelements="0"/>
+        <metrics complexity="11" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="8" elements="25" coveredelements="14"/>
       </class>
-      <line num="32" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="34" type="stmt" count="0"/>
-      <line num="37" type="method" name="getId" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="39" type="stmt" count="0"/>
-      <line num="42" type="method" name="getMarque" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="44" type="stmt" count="0"/>
-      <line num="47" type="method" name="setMarque" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="49" type="stmt" count="0"/>
-      <line num="51" type="stmt" count="0"/>
-      <line num="54" type="method" name="getModele" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="56" type="stmt" count="0"/>
-      <line num="59" type="method" name="setModele" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="61" type="stmt" count="0"/>
-      <line num="63" type="stmt" count="0"/>
+      <line num="32" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="37" type="method" name="getId" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="42" type="method" name="getMarque" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="47" type="method" name="setMarque" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="51" type="stmt" count="1"/>
+      <line num="54" type="method" name="getModele" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="59" type="method" name="setModele" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="61" type="stmt" count="1"/>
+      <line num="63" type="stmt" count="1"/>
       <line num="69" type="method" name="getProprietaires" visibility="public" complexity="1" crap="2" count="0"/>
       <line num="71" type="stmt" count="0"/>
       <line num="74" type="method" name="addProprietaire" visibility="public" complexity="2" crap="6" count="0"/>
@@ -118,7 +118,7 @@
       <line num="86" type="stmt" count="0"/>
       <line num="87" type="stmt" count="0"/>
       <line num="90" type="stmt" count="0"/>
-      <metrics loc="93" ncloc="90" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="25" coveredelements="0"/>
+      <metrics loc="93" ncloc="90" classes="1" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="8" elements="25" coveredelements="14"/>
     </file>
     <file name="/home/runner/work/symfonycicd/symfonycicd/src/Form/ProprietaireType.php">
       <class name="App\Form\ProprietaireType" namespace="global">
@@ -203,6 +203,6 @@
       <line num="38" type="stmt" count="0"/>
       <metrics loc="67" ncloc="36" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
     </file>
-    <metrics files="11" loc="609" ncloc="502" classes="10" methods="42" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="0" elements="136" coveredelements="0"/>
+    <metrics files="11" loc="609" ncloc="502" classes="10" methods="42" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="94" coveredstatements="8" elements="136" coveredelements="14"/>
   </project>
 </coverage>
