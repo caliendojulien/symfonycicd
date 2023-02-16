@@ -17,6 +17,8 @@ jobs:
         with:
           php-version: '8.2'
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Copie du fichier de tests
         run: php -r "file_exists('.env.test.local') || copy('.env.test', '.env.test.local');"
       - name: Suppression du fichier composer.lock
