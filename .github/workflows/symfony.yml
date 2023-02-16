@@ -54,3 +54,5 @@ jobs:
           coverage_badge_path: 'badge.svg'
           push_badge: true
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_name: 'GitHub CI/CD'
+          commit_message: 'MAJ du badge de couverture de code'
