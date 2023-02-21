@@ -49,9 +49,9 @@ jobs:
       - name: Chargement des fixtures
         run: php bin/console d:f:l --env=test --no-interaction
       - name: Installation de tout ce qui concerne JavaScript
-        run: npm install
+        run: php -r "!file_exists('package.json') || exec('npm install');"
       - name: Construction du dossier "public"
-        run: npm run dev
+        run: php -r "!file_exists('package.json') || exec('npm run dev');"
       - name: Execution des tests
         env:
           DATABASE_URL: sqlite:///%kernel.project_dir%/var/data.db
