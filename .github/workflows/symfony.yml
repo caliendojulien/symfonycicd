@@ -3,8 +3,6 @@ name: Symfony
 on:
   pull_request:
     branches: [ "master" ]
-  push:
-    branches: [ "master" ]
 
 permissions:
   contents: write
