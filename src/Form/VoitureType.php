@@ -17,9 +17,7 @@ class VoitureType extends AbstractType
     {
         $builder
             ->add('marque')
-            ->add('modele')
-            ->add('proprietaires', ProprietaireType::class)
-            ->add("Envoyer", SubmitType::class);
+            ->add('modele');
     }
 
     public function configureOptions(OptionsResolver $resolver): void
