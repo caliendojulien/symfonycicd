@@ -1,1 +1,1 @@
-![Code Coverage Badge](./badge.svg) 
+![Code Coverage Badge](badge.svg) 
