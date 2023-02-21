@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676975569">
-  <project timestamp="1676975569">
+<coverage generated="1676975729">
+  <project timestamp="1676975729">
     <file name="/home/runner/work/symfonycicd/symfonycicd/src/Controller/HomeController.php">
       <class name="App\Controller\HomeController" namespace="global">
         <metrics complexity="4" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
